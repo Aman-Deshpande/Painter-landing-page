@@ -1,0 +1,90 @@
+.main {
+  width: 30vw;
+  height: 650px;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-left: 2rem;
+  margin-top: -84px;
+  z-index: 10;
+}
+
+.main .title {
+  height: 84px;
+  background: #ff585f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border-radius: 10px 10px 0 0;
+}
+
+.input__field {
+  border-bottom: 1px solid black;
+  padding: 14px;
+  margin: 8px;
+}
+
+.input__field input {
+  border: none;
+  outline: none;
+  margin-left: 14px;
+}
+
+.input__field .inputdiv {
+  display: flex;
+  align-items: center;
+}
+
+.form__footer {
+  margin: 15px;
+}
+
+.form__footer p {
+  font-size: 17px;
+}
+
+.form__footer .iconsdiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.iconsdiv .icon {
+  width: 190px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.iconsdiv .icon p {
+  font-size: 14px;
+}
+
+.iconsdiv button {
+  width: 12rem;
+  height: 3rem;
+  background-color: #ff585f;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.iconsdiv .icon img {
+  margin-right: 12px;
+}
+
+span {
+  color: red;
+}
+
+@media screen and (max-width: 1288px) {
+  .main {
+    width: 403px;
+    margin-top: 0%;
+  }
+}

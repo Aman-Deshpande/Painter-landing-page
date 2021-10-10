@@ -1,0 +1,67 @@
+.header {
+  width: 100vw;
+  height: 356px;
+  background: #f2bc02;
+  position: relative;
+  z-index: 1;
+}
+
+.painter {
+  position: absolute;
+  left: 10%;
+  top: 90px;
+}
+
+.desc {
+  position: absolute;
+  top: 93px;
+  left: 35%;
+}
+
+.desc .title {
+  font-size: 2.3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.desc .para {
+  font-size: 17px;
+}
+
+@media screen and (max-width: 1000px) {
+  .painter {
+    left: 5%;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 973px) {
+  .painter {
+    left: 0;
+  }
+
+  .desc {
+    left: 38%;
+  }
+}
+
+@media screen and (max-width: 811px) {
+  .desc {
+    left: 31%;
+  }
+
+  .desc .title {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 762px) {
+  .desc .title {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .desc .para {
+    text-align: center;
+  }
+}
